@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Krutika </title>
+    </head>
+    <body>
+        <script>
+            var num = 100;
+            const name  = "Kriti";
+            var number = 324432;
+
+            document.write("<br>"+num);
+            document.write("<br>"+name);
+            document.write("<br>"+number);
+
+            var fun = new Object();
+            document.write("<br>"+typeof(fun));
+
+            var car = {
+                model : "BMW",
+                money : 22009900990,
+                color : "Black",
+            }
+            document.write("<br>"+car.model);
+            document.write("<br>"+car.money);
+            document.write("<br>"+car.color);
+
+            /*var car = {"BMW" ,"BENZ", "ASTON MARTIAN" "AUDI" };
+            document.write("<br>"+car(1));
+            document.write("<br>"+car(3));
+            document.write("<br>"+car(2));*/
+        </script>
+    </body>
+</html>
